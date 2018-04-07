@@ -1,15 +1,9 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
-
 import pandas as pd
 import numpy as np
 
 # preprocessing
 from sklearn import preprocessing
+
 
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
